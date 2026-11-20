@@ -4,10 +4,10 @@ import urllib.request
 import urllib.error
 from urllib.parse import urlparse
 
-SECURITY_HEADERS = [('Strict-Transport-Security', 'Impose des communications chiffrees exclusives via HTTPS (HSTS).'), ('Content-Security-Policy', 'Restreint les sources de contenu pour empecher les failles XSS.'), ('X-Frame-Options', 'Protege contre les attaques par détournement de clic (clickjacking).'), ('X-Content-Type-Options', 'Interdit le reniflage de type MIME par le navigateur.'), ('Referrer-Policy', "Empeche la fuite de donnees d'URL confidentielles vers des tiers."), ('Permissions-Policy', "Restreint l'acces aux interfaces materielles sensibles du terminal.")]
+SECURITY_HEADERS = [('Strict-Transport-Security', 'Impose des connexions chiffrées via HTTPS et prévient les attaques de rétrogradation SSL.'), ('Content-Security-Policy', 'Prévient les attaques par injection de scripts (XSS) et restreint les sources de contenu autorisées.'), ('X-Frame-Options', "Protège contre les attaques par détournement de clic (clickjacking) en contrôlant l'intégration dans des cadres."), ('X-Content-Type-Options', "Interdit l'interprétation automatique et non sécurisée des types MIME par le navigateur."), ('Referrer-Policy', 'Empêche la fuite de données confidentielles contenues dans les URLs référentes vers des tiers.'), ('Permissions-Policy', 'Applique le principe du moindre privilège aux APIs matérielles du navigateur (caméra, micro, géolocalisation).')]
 
 def scan_target(target_url):
-    print(f"\n[TAVARDT France] Debut de l'audit perimetrique des en-tetes de securite pour : {target_url}\n")
+    print(f"\n[TAVARDT France] Début de l'audit périmétrique des en-têtes de sécurité pour : {target_url}\n")
     try:
         req = urllib.request.Request(
             target_url,
@@ -28,11 +28,11 @@ def scan_target(target_url):
                     print(f"  [ABSENT] {header_name}: {desc}")
                     
             print(f"\n[TAVARDT France] Score Final : {score}/{total}")
-            print(f"\nVerificacao completa online: https://tools.tavardt.com/fr/analyse-en-tetes-securite/")
-            print(f"Suporte corporativo e ciberdefesa: https://ag.tavardt.com/fr/cybersecurite/\n")
+            print(f"\nVérification complète en ligne : https://tools.tavardt.com/fr/analyse-en-tetes-securite/")
+            print(f"Support entreprise et cyberdéfense : https://ag.tavardt.com/fr/cybersecurite/\n")
             
     except urllib.error.URLError as e:
-        print(f"[TAVARDT France] Erro ao inspecionar o alvo: {e}")
+        print(f"[TAVARDT France] Erreur lors de l'inspection de la cible : {e}")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
