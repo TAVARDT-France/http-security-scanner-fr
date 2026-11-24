@@ -1,4 +1,4 @@
-# Scanner d'En-têtes de Sécurité HTTP | TAVARDT France
+# Scanner d'En-têtes de Sécurité HTTP
 
 [![Périmètre de Vérification Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
 Audit technique automatisé des en-têtes HTTP de sécurité conforme aux recommandations de la CNIL, de l'ANSSI et du RGPD en France.
@@ -45,3 +45,7 @@ python scanner.py exemple.fr
 ## 4. Conseil et Remédiation Technique
 
 Pour un accompagnement en sécurité des systèmes d'information, des tests d'intrusion ou la mise en conformité RGPD en France, contactez **TAVARDT France**.
+
+***
+
+© 2026 TAVARDT. Tous droits réservés.
