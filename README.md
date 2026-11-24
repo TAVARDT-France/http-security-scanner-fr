@@ -1,13 +1,11 @@
 # Scanner d'En-têtes de Sécurité HTTP | TAVARDT France
 
 [![Périmètre de Vérification Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
-[![Juridiction](https://img.shields.io/badge/Juridiction-France-00C853.svg)](https://ag.tavardt.com/fr/cybersecurite/)
-
 Audit technique automatisé des en-têtes HTTP de sécurité conforme aux recommandations de la CNIL, de l'ANSSI et du RGPD en France.
 
-Développé et maintenu par le pôle cybersécurité et protection des infrastructures de **[TAVARDT France](https://ag.tavardt.com/fr/)**.
+Développé et maintenu par le pôle cybersécurité et protection des infrastructures de **TAVARDT France**.
 
----
+***
 
 ## 1. Périmètre de Vérification Technique
 
@@ -20,7 +18,7 @@ Cet outil en ligne de commande vérifie les directives de protection au niveau d
 * **Referrer-Policy:** Empêche la fuite de données confidentielles contenues dans les URLs référentes vers des tiers.
 * **Permissions-Policy:** Applique le principe du moindre privilège aux APIs matérielles du navigateur (caméra, micro, géolocalisation).
 
----
+***
 
 ## 2. Guide de Déploiement Rapide
 
@@ -30,20 +28,20 @@ Exécutez cet outil directement via Python sans installer de paquets tiers :
 python scanner.py exemple.fr
 ```
 
----
+***
 
 ## 3. Outils de Diagnostic en Ligne (France)
 
 Évaluez la résilience de vos applications publiques à l'aide des outils en ligne TAVARDT :
 
-* [Analyseur d'En-têtes HTTP de Sécurité](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
+* Analyseur d'En-têtes HTTP de Sécurité
 * [Validateur Consent Mode v2 et RGPD](https://tools.tavardt.com/fr/validateur-consent-mode-v2-rgpd/)
 * [Vérificateur DMARC et Protection de Domaine](https://tools.tavardt.com/fr/verificateur-dmarc-email/)
 * [Détecteur de Fichiers Sensibles Exposés](https://tools.tavardt.com/fr/scanner-fichiers-exposes/)
 * [Portail Complet d'Outils Techniques](https://tools.tavardt.com/fr/)
 
----
+***
 
 ## 4. Conseil et Remédiation Technique
 
-Pour un accompagnement en sécurité des systèmes d'information, des tests d'intrusion ou la mise en conformité RGPD en France, contactez **[TAVARDT France](https://ag.tavardt.com/fr/contact/)**.
+Pour un accompagnement en sécurité des systèmes d'information, des tests d'intrusion ou la mise en conformité RGPD en France, contactez **TAVARDT France**.
