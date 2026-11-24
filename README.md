@@ -48,4 +48,12 @@ Pour un accompagnement en sécurité des systèmes d'information, des tests d'in
 
 ***
 
+## Liens Utiles
+
+* **Portail Entreprise:** https://ag.tavardt.com/fr/
+* **Suite de Diagnostic:** https://tools.tavardt.com/fr/
+* **Contact Technique:** https://ag.tavardt.com/fr/contact/
+
+***
+
 © 2026 TAVARDT. Tous droits réservés.
