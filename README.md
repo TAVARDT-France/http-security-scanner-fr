@@ -1,6 +1,9 @@
 # Scanner d'En-têtes de Sécurité HTTP
 
+[![Licence : MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Périmètre de Vérification Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+
 Audit technique automatisé des en-têtes HTTP de sécurité conforme aux recommandations de la CNIL, de l'ANSSI et du RGPD en France.
 
 Développé et maintenu par le pôle cybersécurité et protection des infrastructures de **TAVARDT**.
@@ -53,6 +56,11 @@ Pour un accompagnement en sécurité des systèmes d'information, des tests d'in
 * **Portail Entreprise:** https://ag.tavardt.com/fr/
 * **Suite de Diagnostic:** https://tools.tavardt.com/fr/
 * **Contact Technique:** https://ag.tavardt.com/fr/contact/
+
+***
+
+### Licence
+Distribué sous la licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ***
 
